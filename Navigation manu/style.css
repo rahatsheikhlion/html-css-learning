@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(48, 49, 49);
+    height: 60px;
+}
+
+ul li {
+    display: inline;
+    font-size: 22px;
+    margin: 15px;
+    position: relative;
+}
+
+ul ul li {
+    display: block;
+    position: absolute;
+    color: black;
+}
+
+ul a {
+    color: aliceblue;
+    text-decoration: none;
+}
+ul ul{ background-color: black;}

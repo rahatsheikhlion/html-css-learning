@@ -1,0 +1,50 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+
+
+.classone {
+    text-align: center;
+    background-color: #282d4d;
+    margin: auto;
+    font-family: verdana;
+}
+    
+
+
+.classtwo {
+    width: 100%;
+    height: 500px;
+}
+.home-button{
+    background-color: aqua;
+    text-align: right;
+    background-attachment: fixed;
+
+} 
+button:hover{
+       color:blue;
+       background-color:rgb(226, 43, 52);
+       text-decoration:underline;
+
+}
+
+.buttton-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .paragraph{
+  /*  border: 4px dotted black;*/
+    border-left-style: dotted;
+  }
+  .p{
+    background-color: lightgreen;
+    color: black;
+  }
+  .if{
+    width: 100%;
+    border:none;
+    height: 600px;
+  }
